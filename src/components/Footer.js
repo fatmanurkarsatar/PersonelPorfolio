@@ -39,6 +39,7 @@ return (
             </div>
         </div>
 
+
         <hr className="my-4 border-white" />
 
         {/* Sosyal medya ikonları */}
