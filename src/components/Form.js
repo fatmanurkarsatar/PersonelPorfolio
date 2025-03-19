@@ -86,7 +86,7 @@ export default function ContactForm() {
         type="submit"
         className="w-full bg-pink-500 text-white py-2 rounded-md"
       >
-        Submit
+       Gönder
       </button>
     </form>
   );
