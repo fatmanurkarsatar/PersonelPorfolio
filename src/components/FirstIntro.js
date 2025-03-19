@@ -3,7 +3,6 @@ import Image from "next/image";
 import btk from "../../public/assets/btk.jpg";
 import { MdOutlineWavingHand } from "react-icons/md";
 
-
 function FirstIntro() {
   return (
     <div className="w-full px-4 p-4 mt-5">

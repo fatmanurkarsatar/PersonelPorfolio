@@ -2,11 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import {
-  FaTimes,
-  FaHome,
-  FaEnvelope,
-} from "react-icons/fa";
+import {FaTimes, FaHome, FaEnvelope,} from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 
 const Header = () => {
