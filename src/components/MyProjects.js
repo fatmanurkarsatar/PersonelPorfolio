@@ -74,7 +74,6 @@ function MyProjects() {
               </h6>
               <p className="text-m text-[#828282]">{proje.description}</p>
               <br />
-
               <div className="absolute bottom-2 right-2 text-green-700 hover:underline">
                 {proje.link}
               </div> 
