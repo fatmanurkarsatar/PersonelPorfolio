@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import {FaTimes, FaHome, FaEnvelope,} from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
+import { IoMdSnow } from "react-icons/io";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,8 +24,8 @@ const Header = () => {
       <div className="h-20 flex justify-between items-center z-50 text-white lg:py-5 px-6 py-4">
         <Link href="/">
           <div className="flex items-center">
-            <span className="text-3xl font-medium cursor-pointer ml-3">
-              FATMA NUR KARSATAR
+            <span className="text-3xl font-medium cursor-pointer ml-3 flex flex-row items-center gap-2">
+              FATMA NUR KARSATAR <IoMdSnow/>
             </span>
           </div>
         </Link>
