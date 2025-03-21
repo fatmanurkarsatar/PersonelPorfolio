@@ -16,7 +16,10 @@ function FirstIntro() {
             2021 yılında Necmettin Erbakan Üniversitesi Yönetim Bilişim
             Sistemleri Bölümü'nü kazandım. Birinci sınıftan itibaren yazılım
             alanında çalışmalarımı sürdürmekteyim. Şu an 4. sınıfım ve bir
-            şirkette Front-end developer olarak staj yapmaktayım.
+            şirkette Front-end developer olarak staj yapmaktayım. Kariyerimi
+            full stack developer olarak sürdürmek istiyorum. Bu alanda kendimi
+            geliştirmek için sürekli öğrenmeye ve yeni teknolojileri takip etmeye
+            çalışıyorum.
           </p>
         </div>
 
