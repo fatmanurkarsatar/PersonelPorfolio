@@ -83,6 +83,7 @@ const Technologies = () => {
                 src={image.src}
                 alt={image.alt}
                 className="max-w-full max-h-full object-contain"
+                width={200}
                 priority
               />
             </div>
