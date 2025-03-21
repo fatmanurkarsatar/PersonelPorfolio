@@ -14,7 +14,7 @@ function MyProjects() {
       title: "To Do List Uygulaması",
       src: todoList,
       description:
-        "Hem React hem de vanilla js ile geliştirmiş olduğum yapılacaklar yapılacaklar listesi uygulaması",
+        "Hem React hem de vanilla js ile geliştirmiş olduğum yapılacaklar listesi uygulamasıdır. Bu uygulama, kullanıcıların görevlerini ekleyip düzenlemelerine olanak tanır. Ayrıca, görevlerin tamamlandığında işaretlenmesi ve silinmesi gibi temel işlevleri içerir.",
       link: <Link href="https://github.com/fatmanurkarsatar/To-do-List" target="blank">Kodları Görmek İçin Tıklayınız</Link>
     },
     {
