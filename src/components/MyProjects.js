@@ -38,7 +38,7 @@ function MyProjects() {
       title: "Film Kaydetme Uygulaması",
       src: movie,
       description:
-        "Vanilla js ile javascript eğitimi sırasında yazmış olduğum, kullancının izlediği filmleri listeleyebileceği bir uygulama.",
+        "Vanilla js ile javascript eğitimi sırasında yazmış olduğum, kullancının izlediği filmleri listeleyebileceği bir uygulamadır.",
       link: <Link href="https://github.com/fatmanurkarsatar/Film-Project" target="blank">Kodları Görmek İçin Tıklayınız</Link>
     },
   ];
