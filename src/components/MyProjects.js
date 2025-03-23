@@ -15,7 +15,14 @@ function MyProjects() {
       src: todoList,
       description:
         "Hem React hem de vanilla js ile geliştirmiş olduğum yapılacaklar listesi uygulamasıdır. Bu uygulama, kullanıcıların görevlerini ekleyip düzenlemelerine olanak tanır. Ayrıca, görevlerin tamamlandığında işaretlenmesi ve silinmesi gibi temel işlevleri içerir.",
-      link: <Link href="https://github.com/fatmanurkarsatar/To-do-List" target="blank">Kodları Görmek İçin Tıklayınız</Link>
+      link: (
+        <Link
+          href="https://github.com/fatmanurkarsatar/To-do-List"
+          target="blank"
+        >
+          Kodları Görmek İçin Tıklayınız
+        </Link>
+      ),
     },
     {
       id: 2,
@@ -23,7 +30,14 @@ function MyProjects() {
       src: calculator,
       description:
         "React ile geliştirdiğim bu uygulama, temel matematiksel işlemleri pratik bir şekilde yapabilmenizi sağlar. Toplama, çıkarma, çarpma ve bölme işlemlerini hızlıca gerçekleştirebilirsiniz.",
-        link: <Link href="https://github.com/fatmanurkarsatar/basic-Calculator" target="blank">Kodları Görmek İçin Tıklayınız</Link>
+      link: (
+        <Link
+          href="https://github.com/fatmanurkarsatar/basic-Calculator"
+          target="blank"
+        >
+          Kodları Görmek İçin Tıklayınız
+        </Link>
+      ),
     },
     {
       id: 3,
@@ -31,7 +45,14 @@ function MyProjects() {
       src: quiz,
       description:
         "JSON formatında oluşturduğum soru havuzundan rastgele seçilen sorularla her seviyeye uygun şekilde dinamik bir deneyim sunan interaktif bir quiz uygulamasıdır.",
-        link: <Link href="https://github.com/fatmanurkarsatar/Quizz_App" target="blank">Kodları Görmek İçin Tıklayınız</Link>
+      link: (
+        <Link
+          href="https://github.com/fatmanurkarsatar/Quizz_App"
+          target="blank"
+        >
+          Kodları Görmek İçin Tıklayınız
+        </Link>
+      ),
     },
     {
       id: 4,
@@ -39,7 +60,14 @@ function MyProjects() {
       src: movie,
       description:
         "Vanilla js ile javascript eğitimi sırasında yazmış olduğum, kullancının izlediği filmleri listeleyebileceği bir uygulamadır.",
-      link: <Link href="https://github.com/fatmanurkarsatar/Film-Project" target="blank">Kodları Görmek İçin Tıklayınız</Link>
+      link: (
+        <Link
+          href="https://github.com/fatmanurkarsatar/Film-Project"
+          target="blank"
+        >
+          Kodları Görmek İçin Tıklayınız
+        </Link>
+      ),
     },
   ];
 
@@ -76,7 +104,7 @@ function MyProjects() {
               <br />
               <div className="absolute bottom-2 right-2 text-green-700 hover:underline">
                 {proje.link}
-              </div> 
+              </div>
             </div>
           </div>
         ))}
