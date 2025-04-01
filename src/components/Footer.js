@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div id="footer" className="w-full bg-slate-600 p-4 relative">
+    <div id="footer" className="w-full bg-[#404040] p-4 relative">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <Link href="/">
           <div className="flex items-center justify-center md:justify-start w-full md:w-auto cursor-pointer">
