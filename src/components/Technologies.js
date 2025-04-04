@@ -34,7 +34,7 @@ import {
 const Technologies = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-8 px-4 mt-5">
-      <h1 className="text-3xl font-semibold text-center mb-8 text-[#0f0052]">KULLANDIĞIM TEKNOLOJİLER</h1>
+      <h1 className="text-3xl font-semibold text-center mb-8 text-[#0f0052]">Kullandığım Teknolojiler</h1>
       <Swiper
         effect="coverflow"
         grabCursor={true}

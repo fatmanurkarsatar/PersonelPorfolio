@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   const menuItems = [
-    { href: "/", label: "AnaSayfa", icon: <FaHome /> },
+    { href: "/", label: "Ana Sayfa", icon: <FaHome /> },
     { href: "/contact-form", label: "İletişim", icon: <FaEnvelope /> },
   ];
 
@@ -36,7 +36,7 @@ const Header = () => {
             {menuItems.map((item) => (
               <li
                 key={item.label}
-                className="hover:text-gray-400 transition hover:border-b-2 hover:border-green-600 cursor-pointer"
+                className="hover:text-green-600 transition hover:border-b-2 hover:border-green-600 cursor-pointer"
               >
                 <Link href={item.href}>{item.label}</Link>
               </li>
