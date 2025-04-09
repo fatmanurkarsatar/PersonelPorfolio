@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
           <p className="text-white">
             <FiPhone className="inline-block icon" />
-            <span className="ps-2">0539 880 59 92</span>
+            <span className="ps-2">0555 555 55 55</span>
           </p>
         </div>
       </div>
