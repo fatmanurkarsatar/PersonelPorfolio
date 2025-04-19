@@ -4,6 +4,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
+import { FaGitlab } from "react-icons/fa6";
 import Link from "next/link";
 
 const Footer = () => {
@@ -58,6 +59,12 @@ const Footer = () => {
         <Link target="blank" href="https://www.linkedin.com/in/fatmanurkarsatar/">
           <div className="bg-blue-700 p-2 rounded-full">
             <FaLinkedinIn className="icon text-white cursor-pointer" />
+          </div>
+        </Link>
+
+        <Link target="blank" href="https://gitlab.com/nurkar11">
+          <div className="bg-orange-800 p-2 rounded-full">
+            <FaGitlab className="icon text-orange-600 cursor-pointer" />
           </div>
         </Link>
       </div>
